@@ -9,5 +9,5 @@ make reproduce-working
 To see it failing when it has a query param:
 
 ```
-reproduce-broken
+make reproduce-broken
 ```
