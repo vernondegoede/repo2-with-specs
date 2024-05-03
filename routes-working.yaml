@@ -1,0 +1,10 @@
+openapi: 3.1.0
+info:
+  title: Blah Internal API
+  version: 1.0.0
+  description: Blah description
+servers:
+  - url: https://example.com/api-internal
+paths:
+  /api/invoices:
+    $ref: 'https://raw.githubusercontent.com/vernondegoede/repo1/4deae7ddf2dad69ab31c2770c9dab51239d445a2/test.yaml#/paths/~1api~1invoices'
